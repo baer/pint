@@ -8,13 +8,9 @@
     "url"  : "https://github.com/baer/growler"
   },
   "dependencies": {
-    "grunt"   : "0.4.2",
-    "express" : "3.4.6"
+    "grunt"   : "0.4.2"
   },
   "engines": {
     "node": ">=0.10.22"
-  },
-  "devDependencies" : {
-    "grunt" : "0.4.2"
   }
 }
