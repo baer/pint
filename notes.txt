@@ -1,0 +1,90 @@
+// grunt is glorified xml - 100% declarative
+// versioning and profiles are a mess
+// bad job at directed graph
+// http://en.wikipedia.org/wiki/Directed_acyclic_graph
+ 
+// versioning
+// releasing
+// cache busting
+ 
+var release = Growler.Release.extend({
+  initialize: {}
+  finalize: {}
+});
+ 
+var build = Growler.Build.extend({
+  environments: [
+    "development",
+    "production",
+    "staging"
+  ],
+ 
+  runners: [
+    'CoffeeScript',
+    'SASS',
+    'Test'
+  ]
+ 
+  initialize: {
+    // npm install
+    // bower install
+  },
+ 
+  finalize: {}
+})
+ 
+Growler.addRunner(Growler.Runner.extend({
+  name: "CoffeeScript",
+ 
+  dependsOn: {},
+ 
+  initialize: {},
+ 
+  build: function () {
+    growler.coffee();
+  },
+ 
+  "build.production": {
+    growler.uglify();
+  },
+ 
+  "deploy.development": function () {
+    growler.copy-dev();
+  },
+ 
+  "deploy.production": {
+    growler.copy-prod();
+  }
+ 
+  config: {
+    coffee: {
+      compile: {
+        files: {
+          'path/to/result.js': 'path/to/source.coffee'
+        }
+      }
+    },
+    copy: {
+      dev: {
+        files: [
+          {expand: true, flatten: true, src: ['path/**'], dest: 'dest/', filter: 'isFile'}
+        ]
+      }
+      prod: {
+        files: [
+          {expand: true, flatten: true, src: ['path/**'], dest: 'dest/', filter: 'isFile'}
+        ]
+      }
+    },
+    uglify: {
+      options: {
+        mangle: false
+      },
+      my_target: {
+        files: {
+          'dest/output.min.js': ['src/input.js']
+        }
+      }
+    }
+  }
+});
