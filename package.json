@@ -8,7 +8,8 @@
     "url": "https://github.com/baer/pint"
   },
   "dependencies": {
-    "grunt": "0.4.2"
+    "grunt": "0.4.2",
+    "commander": "2.1.0"
   },
   "engines": {
     "node": ">=0.10.22"
