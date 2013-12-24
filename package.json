@@ -2,7 +2,7 @@
   "name": "pint",
   "version": "0.0.1",
   "author": "Eric Baer <me@ericbaer.com>",
-  "description": "A build process for the modern web",
+  "description": "A build tool for the modern web",
   "repository": {
     "type": "git",
     "url": "https://github.com/baer/pint"
