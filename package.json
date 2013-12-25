@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "grunt": "0.4.2",
+    "grunt-cli": "0.1.11",
     "commander": "2.1.0",
     "underscore": "1.5.2",
     "temp":"0.6.0"
