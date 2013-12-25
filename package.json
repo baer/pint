@@ -4,15 +4,18 @@
   "author": "Eric Baer <me@ericbaer.com>",
   "description": "A build tool for the modern web",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/baer/pint"
+    "type" : "git",
+    "url"  : "https://github.com/baer/pint"
   },
   "dependencies": {
-    "grunt": "0.4.2",
-    "grunt-cli": "0.1.11",
-    "commander": "2.1.0",
-    "underscore": "1.5.2",
-    "temp":"0.6.0"
+    "commander"  : "2.1.0",
+    "underscore" : "1.5.2",
+    "temp"       :"0.6.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "grunt"            : "~0.4.0",
+    "load-grunt-tasks" : "0.2.1"
   },
   "engines": {
     "node": ">=0.10.22"
@@ -22,7 +25,6 @@
   },
   "homepage": "https://github.com/baer/pint",
   "main": "pint.js",
-  "devDependencies": {},
   "main": "./lib/pint",
   "bin": {
     "pt": "./bin/pint"
