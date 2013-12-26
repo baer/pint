@@ -10,7 +10,8 @@
   "dependencies": {
     "commander"  : "2.1.0",
     "underscore" : "1.5.2",
-    "temp"       : "0.6.0"
+    "temp"       : "0.6.0",
+    "q"          : "0.9.7"
   },
   "devDependencies": {},
   "peerDependencies": {
