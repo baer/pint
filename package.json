@@ -11,7 +11,8 @@
     "commander"  : "2.1.0",
     "underscore" : "1.5.2",
     "temp"       : "0.6.0",
-    "q"          : "0.9.7"
+    "q"          : "0.9.7",
+    "async"      : "~0.2.9"
   },
   "devDependencies": {},
   "peerDependencies": {
