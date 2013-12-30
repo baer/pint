@@ -13,7 +13,11 @@ Thoughts and Ramblings
  
 TODO
 -------------
-[ ] profiles
-[ ] versioning
-[ ] releasing
-[ ] cache busting
+- [x] Concurrent by default
+- [x] Encourages better organization
+- [ ] Runner dependency management
+- [ ] init and finalize tasks
+- [ ] profiles
+- [ ] versioning
+- [ ] releasing
+- [ ] cache busting
