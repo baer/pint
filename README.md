@@ -1,23 +1,30 @@
 # Pint
-
 Humble Beginnings
--------------
 
-Thoughts and Ramblings
--------------
-* grunt is glorified xml - 100% declarative
-* versioning and profiles are a mess
-* Build dependency management is a mess - should be a [Directed Graph](http://en.wikipedia.org/wiki/Directed_acyclic_graph)
-* Should be concurrent by default
+---
+
+##### Problems this project is trying to solve
+
+* Build should be concurrent by default
+* Build should manage dependencies transparently via a [Directed Acyclic Graph](http://en.wikipedia.org/wiki/Directed_acyclic_graph)
+
+##### Problems with stock Grunt
+
+* Grunt configuration is 100% declarative
+* Tasks are grouped by plugin not by functional area
+* Versioning and environment profiles are not handled well
+* Build dependency management is non existent
+* No built in concurrency
 * There is more to build than tasks!
- 
-TODO
--------------
+
+---
+
+##### TODO:
 - [x] Concurrent by default
 - [x] Encourages better organization
-- [ ] Runner dependency management
+- [x] Runner dependency management
 - [ ] init and finalize tasks
-- [ ] profiles
+- [ ] environment profiles
 - [ ] versioning
 - [ ] releasing
 - [ ] cache busting
