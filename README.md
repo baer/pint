@@ -23,8 +23,10 @@ Humble Beginnings
 - [x] Concurrent by default
 - [x] Encourages better organization
 - [x] Runner dependency management
+- [ ] Run individual tasks
 - [ ] init and finalize tasks
 - [ ] environment profiles
 - [ ] versioning
 - [ ] releasing
 - [ ] cache busting
+- [ ] OS Independant
