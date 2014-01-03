@@ -1,6 +1,6 @@
 {
   "name": "pint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Eric Baer <me@ericbaer.com>",
   "description": "A build tool for the modern web",
   "repository": {
