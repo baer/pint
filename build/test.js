@@ -6,21 +6,25 @@ module.exports = {
   dependsOn: [],
 
   build: [
-    'jshint'
+    'jshint',
+    'mochaTest'
   ],
 
   config: {
     jshint: {
       options: {
-        jshintrc : '.jshintrc'
+        jshintrc : '.jshintrc',
+        ignores: ['./node_modules/**/*']
       },
-      all: [
-        './Pint.js',
-        './bin/**/*.js',
-        './lib/**/*.js',
-        './build/**/*.js',
-        './test/**/*.js'
-      ]
-    }
+      all: ['./**/*.js']
+    },
+    mochaTest: {
+      test: {
+        options: {
+          reporter: "spec"
+        },
+        src: ["test/**/*.spec.js"]
+      }
+    },
   }
 };
