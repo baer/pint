@@ -1,7 +1,6 @@
 # Pint
 
-Pint is built with Pint so for an example you can just check out the Pintfile in the build directory!
-To check out the Pint website (A much more typical project built with this tool) check out [Pintjs.com](http://pintjs.com)
+Pint is built with Pint so for an example you can just check out the Pintfile in the build directory! Or for a more typical project built check out [Pintjs.com src](https://github.com/baer/pintjs.com)
 
 ##### Problems this project is trying to solve
 
