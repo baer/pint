@@ -1,10 +1,7 @@
 # Pint
-Humble Beginnings
 
----
 Pint is built with Pint so for an example you can just check out the Pintfile in the build directory!
 To check out the Pint website (A much more typical project built with this tool) check out [Pintjs.com](http://pintjs.com)
----
 
 ##### Problems this project is trying to solve
 
