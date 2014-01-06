@@ -7,11 +7,29 @@ var assert = require('assert'),
 // Global setup.
 global.expect = chai.expect;
 
-var cli = require('../lib/cli');
+var cli = require('../lib/cli'),
+  pint = require('../lib/pint.js');
 
 describe('cli', function () {
+
+  beforeEach(function () {
+    // I want to put my stub here but it appears to never be called
+    console.log("I am nowhere to be found!");
+  });
+
   describe('--version', function () {
-    it('should log version in package.json');
+    it('should log version in package.json', function () {
+      sinon.stub(pint, 'drink', function () {});
+
+      cli(['--version']);
+
+      // If I have a console log in the test it causes the test to print twice.
+      console.log('here');
+
+      // This should not be called but the test says it is.
+      sinon.assert.calledOnce(pint.drink);
+      pint.drink.restore();
+    });
     it('should not execute Pint');
     it('should ignore other options and parameters');
     it('should return with exit code 0');

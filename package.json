@@ -17,6 +17,7 @@
     "grunt-contrib-jshint": "0.8.0",
     "grunt-mocha-test": "0.8.1",
     "chai": "1.8.1",
+    "sinon-chai": "2.4.0",
     "sinon": "1.7.3"
   },
   "peerDependencies": {
