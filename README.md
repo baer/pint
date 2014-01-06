@@ -36,7 +36,7 @@ new-pint-user$ pt --help
   "name": "my-project-name",
   "version": "0.1.0",
   "devDependencies": {
-    "pint": "0.0.4",
+    "pint": "0.0.5",
     "grunt-contrib-jshint": "0.8.0"
   }
 }
