@@ -2,6 +2,9 @@
 Humble Beginnings
 
 ---
+Pint is built with Pint so for an example you can just check out the Pintfile in the build directory!
+To check out the Pint website (A much more typical project built with this tool) check out [Pintjs.com](http://pintjs.com)
+---
 
 ##### Problems this project is trying to solve
 
@@ -21,10 +24,11 @@ Humble Beginnings
 
 ##### TODO:
 - [x] Concurrent by default
-- [x] Encourages better organization
-- [x] Runner dependency management
-- [ ] Run individual tasks
-- [ ] init and finalize tasks
+- [x] Encourage better build organization
+- [x] Job dependency management
+- [x] Run individual tasks
+- [x] initialize and finalize tasks
+- [ ] Run arbitrary functions as jobs
 - [ ] environment profiles
 - [ ] versioning
 - [ ] releasing
