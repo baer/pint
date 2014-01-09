@@ -94,7 +94,7 @@ new-pint-user$ pt
 
 ## Example Projects
 * [Pint](https://github.com/baer/pint) - Pint is built with Pint!
-* [Pintjs.com](https://github.com/baer/pintjs.com) - Static site using Pint
+* [Pint-Sample](https://github.com/baer/pint-sample.com) - Static site using Pint
 
 ---
 
