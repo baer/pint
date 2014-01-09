@@ -75,7 +75,7 @@ module.exports = {
 'use strict';
 
 module.exports = {
-  jos: [
+  jobs: [
     require('./build/test.js'),
   ]
 };
