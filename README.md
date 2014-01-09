@@ -36,7 +36,7 @@ new-pint-user$ pt --help
   "name": "my-project-name",
   "version": "0.1.0",
   "devDependencies": {
-    "pint": "0.0.5",
+    "pint": "0.1.0",
     "grunt-contrib-jshint": "0.8.0"
   }
 }
@@ -75,11 +75,9 @@ module.exports = {
 'use strict';
 
 module.exports = {
-  build: {
-    runners: [
-      require('./build/test.js'),
-    ]
-  },
+  jos: [
+    require('./build/test.js'),
+  ]
 };
 
 ```
@@ -94,7 +92,7 @@ new-pint-user$ pt
 
 ## Example Projects
 * [Pint](https://github.com/baer/pint) - Pint is built with Pint!
-* [Pintjs.com](https://github.com/baer/pintjs.com) - Static site using Pint
+* [Pint-Sample](https://github.com/baer/pint-sample.com) - Static site using Pint
 
 ---
 
