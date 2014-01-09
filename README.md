@@ -75,11 +75,9 @@ module.exports = {
 'use strict';
 
 module.exports = {
-  build: {
-    runners: [
-      require('./build/test.js'),
-    ]
-  },
+  jos: [
+    require('./build/test.js'),
+  ]
 };
 
 ```
