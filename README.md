@@ -69,7 +69,7 @@ module.exports = {
 };
 ```
 
-##### Create a `Pintfile.js` and require in the build file you just made
+##### Create a `Pint.js` file and require in the build file you just made
 
 ```javascript
 'use strict';
