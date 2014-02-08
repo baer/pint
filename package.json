@@ -1,6 +1,6 @@
 {
   "name": "pint",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Eric Baer <me@ericbaer.com>",
   "description": "A build tool for the modern web",
   "repository": {
@@ -13,7 +13,7 @@
     "async"      : "~0.2.10"
   },
   "devDependencies": {
-    "pint": "0.1.0",
+    "pint": "0.2.1",
     "grunt-contrib-jshint": "0.8.0",
     "grunt-mocha-test": "0.9.0",
     "chai": "1.9.0",
@@ -22,7 +22,7 @@
   "peerDependencies": {
     "grunt": "~0.4.0",
     "grunt-cli": "~0.1.11",
-    "load-grunt-tasks": "~0.2.1"
+    "load-grunt-tasks": "~0.3.0"
   },
   "engines": {
     "node": ">=0.10.22"
