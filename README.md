@@ -6,7 +6,7 @@ Examples and docs can be found at [pintjs.com](http://www.pintjs.com/)
 
 ### Example Projects
 * [Pint](https://github.com/baer/pint) - Pint is built with Pint!
-* [Pint-Sample](https://github.com/baer/pint-sample.com) - Static site using Pint
+* [Pint-Sample](https://github.com/baer/pint-sample) - Static site using Pint
 
 ---
 
