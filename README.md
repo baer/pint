@@ -1,3 +1,7 @@
+<h1 align="center">This project is DEPRECATED and will no longer be maintained</h1>
+
+---
+
 # Pint: A Build tool for the Modern Web
 
 ### Documentation
